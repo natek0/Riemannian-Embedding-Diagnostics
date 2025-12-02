@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "riemannian-diagnostics"
+version = "0.1.0"
+description = "Diagnosing geometric distortions in embeddings using the Push-Forward Riemannian Metric."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.20.0",
+    "scipy>=1.7.0",
+    "scikit-learn>=1.0.0",
+    "matplotlib>=3.5.0",
+    "plotly>=5.0.0",
+    "pandas>=2.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black"
+]

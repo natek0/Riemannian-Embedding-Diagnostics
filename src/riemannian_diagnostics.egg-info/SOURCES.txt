@@ -1,0 +1,10 @@
+pyproject.toml
+src/__init__.py
+src/geometry/__init__.py
+src/metrics/__init__.py
+src/riemannian_diagnostics.egg-info/PKG-INFO
+src/riemannian_diagnostics.egg-info/SOURCES.txt
+src/riemannian_diagnostics.egg-info/dependency_links.txt
+src/riemannian_diagnostics.egg-info/requires.txt
+src/riemannian_diagnostics.egg-info/top_level.txt
+src/viz/__init__.py
